@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zoho Analytics Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="dashboard">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h2 class="logo">Zoho Dashboard</h2>
+      <ul class="menu">
+        <li><a href="#">Overview</a></li>
+        <li><a href="#">Sales</a></li>
+        <li><a href="#">Marketing</a></li>
+        <li><a href="#">Finance</a></li>
+        <li><a href="#">Settings</a></li>
+      </ul>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <header class="header">
+        <h1>Analytics Overview</h1>
+        <div class="user-info">
+          <span class="user-name">Hi, Admin</span>
+          <img src="https://i.pravatar.cc/40" alt="User" class="user-avatar" />
+        </div>
+      </header>
+
+      <!-- Dashboard Cards -->
+      <section class="cards">
+        <div class="card">
+          <h3>Total Sales</h3>
+          <p class="value">$52,430</p>
+          <span class="trend up">▲ 12%</span>
+        </div>
+
+        <div class="card">
+          <h3>Active Users</h3>
+          <p class="value">1,245</p>
+          <span class="trend down">▼ 3%</span>
+        </div>
+
+        <div class="card">
+          <h3>New Orders</h3>
+          <p class="value">340</p>
+          <span class="trend up">▲ 8%</span>
+        </div>
+
+        <div class="card">
+          <h3>Revenue Growth</h3>
+          <p class="value">$8,970</p>
+          <span class="trend up">▲ 5%</span>
+        </div>
+      </section>
+
+      <!-- Chart Area (you can embed Zoho charts here) -->
+      <section class="chart-area">
+        <h2>Performance Chart</h2>
+        <!-- Example embedded Zoho chart (replace with your real embed code) -->
+        <iframe 
+          src="https://analytics.zoho.com/open-view/123456" 
+          frameborder="0"
+          width="100%"
+          height="400">
+        </iframe>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
